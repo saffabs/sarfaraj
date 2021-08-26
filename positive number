@@ -1,0 +1,4 @@
+nums=[3,4,6,8,65,45,-44,-]
+print("original number in the list:",nums)
+new_nums=list(filter(lambda x:x>0,nums))
+print("Positive number in the list:",new_nums)
